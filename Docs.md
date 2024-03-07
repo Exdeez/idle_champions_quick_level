@@ -11,6 +11,15 @@ https://www.markdownguide.org/cheat-sheet/
     - `git init` initialized repo where it wasn't
     - `git status` check
     - `git config --global user.name "John Doe"`
+    - `git config --global user.name "John Doe"`
+    - `git config --global user.email johndoe@example.com`
+    - `ssh-keygen -t ed25519 -C "your_email@example.com"`
+    - `eval "$(ssh-agent -s)"`
+    - `mkdir <name_of_dir>`
+    - `git remote set-url origin git@github.com:Exdeez/idle_champions_quick_level.git`
+    - `git push`
+    - `sudo apt install xdg-utils`
+    - `xdg-open .` cross-desktop-group opens current file directory
 
 # AutoHotKeyv2
 - Have a Src folder with Utils.ahk and Constants.ahk

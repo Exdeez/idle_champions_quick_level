@@ -11,7 +11,7 @@ https://www.markdownguide.org/cheat-sheet/
 - [Git](https://git-scm.com/doc)
     - `git init` initialized repo where it wasn't
     - `git status` check
-    - `git config --global user.name "Deez Doe"`
+    - `git config --global user.name "John Doe"`
     - `git config --global user.name "John Doe"`
     - `git config --global user.email johndoe@example.com`
     - `ssh-keygen -t ed25519 -C "your_email@example.com"`

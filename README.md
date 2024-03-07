@@ -8,24 +8,29 @@ https://www.markdownguide.org/cheat-sheet/
     - `cd code` cd: change directory
     - `ls` ls: list all in current directory
     - \\wsl$
-- [Git](https://git-scm.com/doc)
-    - `git init` initialized repo where it wasn't
-    - `git status` check
-    - `git config --global user.name "John Doe"`
-    - `git config --global user.name "John Doe"`
-    - `git config --global user.email johndoe@example.com`
-    - `ssh-keygen -t ed25519 -C "your_email@example.com"`
+- Git [documentation](https://git-scm.com/doc)
+- https://stackoverflow.com/questions/18880024/start-ssh-agent-on-login .bashrc
+```git init``` initialized repo where it wasn't
 
-    - `eval "$(ssh-agent -s)"`
-    - `ssh-add ~/.ssh/github_key`
-    - `git pull origin main`
-    - `git checkout -b development main`
+- `git status` check
+- `git config --global user.name "John Doe"`
+- `git config --global user.name "John Doe"`
+- `git config --global user.email johndoe@example.com`
+- `ssh-keygen -t ed25519 -C "your_email@example.com"`
 
-    - `mkdir <name_of_dir>`
-    - `git remote set-url origin git@github.com:Exdeez/idle_champions_quick_level.git`
-    - `git push`
-    - `sudo apt install xdg-utils`
-    - `xdg-open .` cross-desktop-group opens current file directory
+- `ssh-add ~/.ssh/github_key`      to Ubuntu every time I wanna talk to git
+- `eval "$(ssh-agent -s)"`         ^ same as above
+
+- `git pull origin main` pulling from main to w/e branch u in
+- `git checkout -b development main`
+- `git pull origin main --no-rebase` To merge conflict work on merge conflict
+- `git branch` check branch u in
+
+- `mkdir <name_of_dir>` make directory
+- `git remote set-url origin git@github.com:Exdeez/idle_champions_quick_level.git` 
+- `git push`
+- `sudo apt install xdg-utils` example of installing something to ubuntu
+- `explorer.exe .` opens current file directory in explorer
 
 # AutoHotKeyv2
 - Have a Src folder with Utils.ahk and Constants.ahk

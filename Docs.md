@@ -2,7 +2,7 @@
 https://www.markdownguide.org/cheat-sheet/
 
 - CTRL-Shift P - Opens search menu (Types > in search bar)
-- 'Markdown: Open Preview' to see in Markdown
+- 'Markdown: Open Preview' to see in cazts
 - WSL, Ubuntu (Linux Distribution), Github, Windows Terminal, 
     - `sudo apt-get update && sudo apt update && sudo apt upgrade -y` Grabs apt and apt-get (in Ubuntu), then installs them. Run 1 a week
     - `cd code` cd: change directory

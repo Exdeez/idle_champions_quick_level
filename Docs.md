@@ -2,22 +2,24 @@
 https://www.markdownguide.org/cheat-sheet/
 
 - CTRL-Shift P - Opens search menu (Types > in search bar)
-- 'Markdown: Open Preview' to see in I like cats
+- 'Markdown: Open Preview' to see in Markdown
 - WSL, Ubuntu (Linux Distribution), Github, Windows Terminal, 
     - `sudo apt-get update && sudo apt update && sudo apt upgrade -y` Grabs apt and apt-get (in Ubuntu), then installs them. Run 1 a week
     - `cd code` cd: change directory
     - `ls` ls: list all in current directory
     - \\wsl$
+- [Git](https://git-scm.com/doc)
     - `git init` initialized repo where it wasn't
     - `git status` check
     - `git config --global user.name "John Doe"`
     - `git config --global user.name "John Doe"`
     - `git config --global user.email johndoe@example.com`
     - `ssh-keygen -t ed25519 -C "your_email@example.com"`
-    
+
     - `eval "$(ssh-agent -s)"`
     - `ssh-add ~/.ssh/github_key`
     - `git pull origin main`
+    - `git checkout -b development main`
 
     - `mkdir <name_of_dir>`
     - `git remote set-url origin git@github.com:Exdeez/idle_champions_quick_level.git`

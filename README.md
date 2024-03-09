@@ -32,7 +32,7 @@ https://www.markdownguide.org/cheat-sheet/
 - `sudo apt install xdg-utils` example of installing something to ubuntu
 - `explorer.exe .` opens current file directory in explorer
 
-# AutoHotKeyv2
+<details><summary><H1>AutoHotKeyv2</H1></summary>
 - Have a Src folder with Utils.ahk and Constants.ahk
 - Documentation
     - [MsgBox](https://documentation.help/AHK_H-2.0/MsgBox.htm)
@@ -144,4 +144,5 @@ F15::
     SlotSeven := CharacterInSlot7SpecChoice.%CharacterInSlot7%.%StepThreeChooseSpecialization% ; This is the important part!
     MsgBox SlotSeven(SpecChoiceForSlot7)
 }
-``` 
+```
+</details>
